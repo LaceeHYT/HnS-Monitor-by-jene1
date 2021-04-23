@@ -1,0 +1,24 @@
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="26*"/>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="363*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Felhasználó neve:" HorizontalAlignment="Left" Height="29" Margin="10,121,0,0" VerticalAlignment="Top" Width="108" Grid.ColumnSpan="3" />
+                    <Label Content="Verzió:" HorizontalAlignment="Left" Height="29" Margin="10,155,0,0" VerticalAlignment="Top" Width="141" Grid.ColumnSpan="3"/>
+                    <Label Content="Operációs rendszer platformja:" HorizontalAlignment="Left" Height="29" Margin="10,189,0,0" VerticalAlignment="Top" Width="174" Grid.ColumnSpan="3"/>
+                    <Label Content="Processzor szálak száma:" HorizontalAlignment="Left" Height="29" Margin="10,225,0,0" VerticalAlignment="Top" Width="141" Grid.ColumnSpan="3" />
+                    <Label Content="Számítógép neve:" HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="108" Grid.ColumnSpan="3" Margin="10,87,0,0"/>
+                    <TextBox x:Name="txt_10" HorizontalAlignment="Left" Height="29" Margin="182,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" IsReadOnly="True" Grid.Column="2"/>
+                    <TextBox x:Name="txt_11" HorizontalAlignment="Left" Height="29" Margin="182,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" IsReadOnly="True" Grid.Column="2"/>
+                    <TextBox x:Name="txt_12" HorizontalAlignment="Left" Height="29" Margin="182,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" IsReadOnly="True" Grid.Column="2"/>
+                    <TextBox x:Name="txt_13" HorizontalAlignment="Left" Height="29" Margin="182,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" IsReadOnly="True" FontSize="14" Grid.Column="2"/>
+                    <TextBox x:Name="txt_14" HorizontalAlignment="Left" Height="29" Margin="182,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" IsReadOnly="True" Background="White" Grid.Column="2"/>
+                    <TextBox x:Name="txt_15" HorizontalAlignment="Left" Height="29" Margin="182,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" IsReadOnly="True" Grid.Column="2"/>
+                    <Label Content="Program mappája:" HorizontalAlignment="Left" Height="29" Margin="10,259,0,0" VerticalAlignment="Top" Width="119" Grid.ColumnSpan="3" />
+                    <TextBox x:Name="txt_16" HorizontalAlignment="Left" Height="29" Margin="182,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" IsReadOnly="True" Grid.Column="2"/>
+                    <Label Content="Rendszer mappája:" HorizontalAlignment="Left" Height="29" Margin="10,293,0,0" VerticalAlignment="Top" Width="153" Grid.ColumnSpan="3" />
+                    <TextBox x:Name="txt_17" HorizontalAlignment="Left" Height="29" Margin="182,327,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" IsReadOnly="True" Grid.Column="2"/>
+                    <Label Content="Domain név:" HorizontalAlignment="Left" Height="29" Margin="10,327,0,0" VerticalAlignment="Top" Width="153" Grid.ColumnSpan="3"/>
+                    <Button x:Name="button_2" Content="Futtatás" HorizontalAlignment="Left" Height="45" Margin="10,10,0,0" VerticalAlignment="Top" Width="373" Click="button_1_Click" BorderBrush="{x:Null}" Grid.ColumnSpan="3" Background="Snow"/>
+                </Grid>
